@@ -8,14 +8,12 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
 
-  topLine: "Premium Bank",
-  headline: "Unlimited Transactions with zero fees",
+  topLine: "QuantumBrief",
+  headline: "Our Mission",
   description:
-    "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
+    "Is to secure the decentralized internet and try to reduce the $700 million stolen in 2021 in digital assets every year. For this, we are 100% aware that we must be able to audit any type of project: large, medium and small.",
   buttonLabel: "Get started",
   imgStart: false,
-  img: car,
-  alt: "Car",
   dark: true,
   primary: true,
   darkText: false,
@@ -26,7 +24,7 @@ export const homeObjTwo = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Unlimited Access",
+  topLine: "Services",
   headline: "Login to your account at any time",
   description:
     "We have you covered no matter where you are located. All you need is an internet connection and a phone or computer.",
@@ -52,6 +50,24 @@ export const homeObjThree = {
   imgStart: false,
   img: signup,
   alt: "Papers",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
+
+export const homeObjFour = {
+  id: "discover",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Services",
+  headline: "Login to your account at any time",
+  description:
+    "We have you covered no matter where you are located. All you need is an internet connection and a phone or computer.",
+  buttonLabel: "Learn More",
+  imgStart: true,
+  img: piggybank,
+  alt: "Piggybank",
   dark: false,
   primary: false,
   darkText: true,

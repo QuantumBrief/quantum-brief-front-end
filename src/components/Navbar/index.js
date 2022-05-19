@@ -67,14 +67,9 @@ function Navbar({ toggle }) {
                 Services
               </NavLinks>
             </NavItem>
-            <NavItem>
-              <NavLinks to="signup" {...scrollProps}>
-                Sign Up
-              </NavLinks>
-            </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/signin">Sign In</NavBtnLink>
+            <NavBtnLink to="/quote">Request A Quote</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

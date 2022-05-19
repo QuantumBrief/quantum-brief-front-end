@@ -17,16 +17,21 @@ function SignIn() {
   return (
     <Container>
       <FormWrap>
-        <Icon to="/">dolla</Icon>
+        <Icon to="/">QuantumBrief</Icon>
         <FormContent>
           <Form action="#">
-            <FormH1>Sign in to your account</FormH1>
+            <FormH1>Contact Us</FormH1>
             <FormLabel htmlFor="for">Email</FormLabel>
             <FormInput type="email" required />
-            <FormLabel htmlFor="for">Password</FormLabel>
-            <FormInput type="password" required />
-            <FormButton type="submit">Continue</FormButton>
-            <Text>Forgot password</Text>
+            <FormLabel htmlFor="for">Name</FormLabel>
+            <FormInput type="text" required />
+            <FormLabel htmlFor="for">Company Name</FormLabel>
+            <FormInput type="text" required />
+            <FormLabel htmlFor="for">Company Name</FormLabel>
+            <FormInput type="text" required />
+            <FormLabel htmlFor="for">Phone Number</FormLabel>
+            <FormInput type="tel" required />
+            <FormButton type="submit">Send</FormButton>
           </Form>
         </FormContent>
       </FormWrap>
