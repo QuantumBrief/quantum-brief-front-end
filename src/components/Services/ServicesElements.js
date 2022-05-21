@@ -10,7 +10,7 @@ export const ServicesContainer = ({ children, ...rest }) => (
 );
 
 export const ServicesWrapper = ({ children }) => (
-  <div className="max-w-5xl my-0 mx-auto grid grid-cols-3 lg:grid-cols-2 md:grid-cols-1 gap-4 items-center py-0 px-12 md:py-0 md:px-6">
+  <div className="max-w-5xl my-0 mx-auto grid grid-cols- lg:grid-cols-2 md:grid-cols-1 gap-4 items-center py-0 px-12 md:py-0 md:px-6">
     {children}
   </div>
 );

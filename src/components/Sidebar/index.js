@@ -18,22 +18,23 @@ function Sidebar({ isOpen, toggle }) {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about" onClick={toggle}>
-            About
+          <SidebarLink to="ourmission" onClick={toggle}>
+            Our Mission
           </SidebarLink>
-          <SidebarLink to="discover" onClick={toggle}>
-            Discover
+          <SidebarLink to="aboutus" onClick={toggle}>
+            About us
           </SidebarLink>
           <SidebarLink to="services" onClick={toggle}>
-            Services
+            Audit Process
           </SidebarLink>
-        </SidebarMenu>
-        <SideBtnWrap>
-          <SidebarRoute to="/contact" onClick={toggle}>
-            Contact
+          <SideBtnWrap>
+          <SidebarRoute to={{ pathname: "https://tally.so/r/waQ97v" }} target="_blank" onClick={toggle}>
+            Request a Quote
           </SidebarRoute>
         </SideBtnWrap>
+        </SidebarMenu>
       </SidebarWrapper>
+      
     </SidebarContainer>
   );
 }

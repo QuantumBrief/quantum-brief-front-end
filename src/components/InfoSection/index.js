@@ -29,21 +29,6 @@ function InfoSection(props) {
                 <Subtitle darkText={props.darkText}>
                   {props.description}
                 </Subtitle>
-                <BtnWrap>
-                  <Button
-                    to="home"
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact="true"
-                    offset={-80}
-                    primary={props.primary ? 1 : 0}
-                    dark={props.dark ? 1 : 0}
-                    dark2={props.dark2 ? 1 : 0}
-                  >
-                    {props.buttonLabel}
-                  </Button>
-                </BtnWrap>
               </TextWrapper>
             </Column1>
             <Column2>

@@ -58,18 +58,18 @@ function Navbar({ toggle }) {
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="discover" {...scrollProps}>
-                Audits
+              <NavLinks to="aboutus" {...scrollProps}>
+                About Us
               </NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="services" {...scrollProps}>
-                Services
+                Audit Process
               </NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/quote">Request A Quote</NavBtnLink>
+            <NavBtnLink to={{ pathname: "https://tally.so/r/waQ97v" }} target="_blank">Request A Quote</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

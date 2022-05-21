@@ -51,7 +51,7 @@ export const SocialMediaWrap = ({ children }) => (
 export const SocialLogo = ({ children, ...rest }) => (
   <Link
     {...rest}
-    className="text-white justify-self-start cursor-pointer no-underline text-2xl flex items-center mb-4 font-bold"
+    className="text-white justify-self-start cursor-pointer no-underline text-2xl flex items-center mb-2 font-bold"
   >
     {children}
   </Link>
@@ -62,7 +62,7 @@ export const WebsiteRights = ({ children }) => (
 );
 
 export const SocialIcons = ({ children }) => (
-  <div className="flex justify-between items-center w-60">{children}</div>
+  <div className="flex justify-between items-center w-20">{children}</div>
 );
 
 export const SocialIconLink = ({ children, href, ...rest }) => (

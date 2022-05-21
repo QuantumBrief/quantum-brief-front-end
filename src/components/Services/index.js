@@ -16,27 +16,33 @@ import {
 function Services() {
   return (
     <ServicesContainer id="services">
-      <ServicesH1>Our Services</ServicesH1>
+      <ServicesH1>Audit Process</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
-          <ServicesIcon src={Icon1} />
-          <ServicesH2>Reduce Expenses</ServicesH2>
+          <ServicesH2>Tools</ServicesH2>
           <ServicesP>
-            We help reduce your fees and increase your overall revenue.
+            We use static tools like slither.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon2} />
-          <ServicesH2>Virtual Offices</ServicesH2>
+
+          <ServicesH2>Testing</ServicesH2>
           <ServicesP>
-            You can access our platform online anywhere in the world.
+            We perform tests to identify common problems. 
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon3} />
-          <ServicesH2>Premium Benefits</ServicesH2>
+
+          <ServicesH2>Check your Smart Contract</ServicesH2>
           <ServicesP>
-            Unlock our special membership card that returns 5% cash back.
+              Review the smart contract code to verify it and make sure it matches the documentation provided by the client.
+          </ServicesP>
+        </ServicesCard>
+        <ServicesCard>
+
+          <ServicesH2> Final Audit</ServicesH2>
+          <ServicesP>
+          We send a preliminary report to the client with the main problems found. This allows us to correct any other errors before publishing the final audit report.
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
